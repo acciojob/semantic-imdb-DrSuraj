@@ -1,16 +1,81 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: white;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+      background-color: #f0f0f0;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+    }
+    nav a:hover {
+      color: #555;
+    }
+    section {
+      margin: 20px 0;
+    }
+    aside {
+      background-color: #f0f0f0;
+      padding: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #333;
+      color: white;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <header>
+    <h1>THE AVENGERS</h1>
+  </header>
 
+  <nav>
+    <a href="#nav-actor">Actors</a>
+    <a href="#nav-quote">Quotes</a>
+  </nav>
+
+  <section id="summary">
+    <h2>Summary</h2>
+    <p>Brief summary of the plot goes here.</p>
+  </section>
+
+  <section id="actor">
+    <h2>Actors</h2>
+    <p>Details about the actors go here.</p>
+  </section>
+
+  <section id="quote">
+    <h2>Quotes</h2>
+    <p>Your favorite quote from the movie goes here.</p>
+  </section>
+
+  <aside>
+    <p>IMDb Rating: 8.5/10</p>
+    <p>Release Date: January 1, 2000</p>
+  </aside>
+
+  <footer>
+    Produced by: Producer's Name
+  </footer>
 </body>
-
 </html>
